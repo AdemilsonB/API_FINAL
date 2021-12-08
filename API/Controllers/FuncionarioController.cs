@@ -1,14 +1,13 @@
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using API.Data;
-using System.Threading.Tasks;
+using API.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    public class FuncionarioController
-    {
-        [ApiController]
+    [ApiController]
     [Route("api/funcionario")]
     public class FuncionarioController : ControllerBase
     {
