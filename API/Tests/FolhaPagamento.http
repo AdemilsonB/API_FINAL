@@ -1,0 +1,17 @@
+### Cadastrar um novo funcionario
+POST https://localhost:5001/api/folhaPagamento/create
+Content-Type: application/json
+
+{
+    "FuncionarioId" : 1,
+    "QntdHoras" : 20,
+    "ValorHora": 10,
+    "Mes": 1,
+    "Ano": 2021
+
+}
+
+### Listar todas as categorias
+GET https://localhost:5001/api/folhaPagamento/list
+
+

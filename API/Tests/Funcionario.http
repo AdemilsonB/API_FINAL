@@ -3,9 +3,9 @@ POST https://localhost:5001/api/funcionario/create
 Content-Type: application/json
 
 {
-    "Nome" : "eu",
+    "Nome" : "eles",
     "Idade" : 20
 }
 
 ### Listar todas as categorias
-GET https://localhost:5001/api/categoria/list
+GET https://localhost:5001/api/funcionario/list
